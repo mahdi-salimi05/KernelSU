@@ -260,4 +260,4 @@ jobs:
         if: ${{ inputs.build_lkm == true }}
         with:
           name: ${{ inputs.version }}-lkm
-          path: ./output/*_kernelsu.ko
+          path: ./output/*_kernelsu.ko 
